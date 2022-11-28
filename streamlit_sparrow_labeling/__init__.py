@@ -4,7 +4,6 @@ import os
 from dataclasses import dataclass
 from hashlib import md5
 
-import numpy as np
 import streamlit.components.v1 as components
 import streamlit.elements.image as st_image
 from PIL import Image
