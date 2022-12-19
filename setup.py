@@ -15,7 +15,7 @@ def readme() -> str:
 
 setuptools.setup(
     name="streamlit-sparrow-labeling",
-    version="0.1.0",
+    version="0.1.1",
     author="Andrej Baranovskij",
     author_email="andrejus.baranovskis@gmail.com",
     description="Streamlit component for invoice document labeling",
@@ -25,7 +25,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
-    python_requires=">=3.9",
+    python_requires=">=3.8",
     install_requires=[
         "streamlit >= 1.15",
         "streamlit-nested-layout",
